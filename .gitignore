@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Usability Study Data Files
+# Ignore data files to prevent committing sensitive study data
+*.xls
+*.xlsx
+*.csv
+!example_*.xls
+!example_*.xlsx
+!example_*.csv
